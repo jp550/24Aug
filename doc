@@ -1,0 +1,19 @@
+gcloud container clusters get-credentials anz-cx-sec-np-gke --region us-east1 --project wb-cx-sec-np-cad098
+gcloud container clusters list
+gcloud config get-value project
+gcloud container cluster compute list
+gcloud compute project-info
+gcloud  compute project-info describe --project projectname
+gcloud config
+gcloud config set custom_ca_certs_file<path_to_cert_file>
+gcloud config set proxy/type http
+gcloud config set proxy/address gblproxy.lb.service.wb
+gcloud config set proxy/port80
+gcloud config set proxy/username
+gcloud config set proxy/password
+kubectl get pods -n test
+kubectl exec -it pod -n ns /bin/sh
+ls
+java --version
+grep 'ApacheTomcat'  path(/opt/fr/lib/tomcat/RELEASE_NOTES)
+
